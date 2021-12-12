@@ -1,0 +1,22 @@
+.a-card{
+    width: 270px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    border: 1px solid #e3e8ee;
+    &:hover{
+        box-shadow: 0 6px 10px 0 rgba(95,101,105,.15);
+    }   
+    &-img{
+        height: 152px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &-summary{
+        padding: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+}
