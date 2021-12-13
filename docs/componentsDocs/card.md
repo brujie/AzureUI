@@ -3,7 +3,7 @@
 
 ### 示例
 <br/>
-<a-card imgSrc="/azureUI/vuepress.png" summary="vuepress"></a-card>
+<a-card imgSrc="/AzureUI/vuepress.png" summary="vuepress"></a-card>
 
 ### 代码
 
