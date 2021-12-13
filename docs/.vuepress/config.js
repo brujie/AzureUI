@@ -1,10 +1,25 @@
 module.exports = {
   title:"AzureUI",
-  base:"/azureUI/",
+  base:"/AzureUI/",
     themeConfig: {
+      nav:[
+        {
+          text:'Home',
+          link:'/'
+        },
+        {
+          text:'Github',
+          link:'https://github.com/brujie/AzureUI',
+        },
+        {
+          text:'Npm',
+          link:'https://www.npmjs.com/package/azure-ui'
+        }
+      ],
       sidebar: [
         '/',
-        '/componentsDocs/card'
+        '/componentsDocs/card',
+        '/componentsDocs/backtop',
       ]
     }
   }
