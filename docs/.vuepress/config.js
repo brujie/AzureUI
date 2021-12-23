@@ -1,3 +1,4 @@
+const list = [];
 module.exports = {
   title:"AzureUI",
   base:"/AzureUI/",
@@ -20,6 +21,9 @@ module.exports = {
         '/',
         '/componentsDocs/card',
         '/componentsDocs/backtop',
+        '/componentsDocs/message',
+        '/componentsDocs/button',
+        '/componentsDocs/table',
       ]
     }
   }

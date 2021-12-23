@@ -1,7 +1,7 @@
-import backTop from './src/main.vue';
+import Backtop from './src/main.vue';
 
-backTop.install = function(Vue){
-    Vue.component(backTop.name,backTop);
+Backtop.install = function(Vue){
+    Vue.component(Backtop.name,Backtop);
 }
 
-export default backTop;
+export default Backtop;
